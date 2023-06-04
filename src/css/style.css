@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*, *:before, *:after { box-sizing: border-box; }
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, ol, ul, li, label, table, main, footer, header, nav, section { margin: 0; padding: 0; border: 0; font-family: "Raleway", sans-serif; }
+
+footer, header, nav, section, main { display: block; }
+
+ol, ul, a { list-style: none; text-decoration: none; }
+
+header { margin: 14px 0 12px; width: 100%; height: 108px; }
+header nav { height: 60px; width: 1180px; margin-left: auto; margin-right: auto; }
+header nav ul { display: flex; justify-content: space-between; }
+header nav:first-child { border-bottom: 1px solid #DCE0E9; }
+
+.menu .menu_item .menu_pic { margin-top: 15px; margin-right: 7px; }
+.menu .menu_item .menu_link { padding-top: 14px; position: absolute; font-weight: 400; font-size: 16px; line-height: 19px; color: #2A2E34; }
+.menu .menu_item .tel { font-weight: 600; }
+.menu .menu_item .menu_btn { font-weight: 700; font-size: 13px; background-color: #fff; text-align: center; text-transform: uppercase; color: #4788E8; width: 200px; height: 45px; border: 1.5px solid #4788E8; border-radius: 30px; cursor: pointer; }
+
+.submenu .submenu_item { padding-top: 19px; }
+.submenu .submenu_item_btn { padding-top: 12px; }
+.submenu .submenu_link { margin-right: 9px; font-weight: 500; font-size: 16px; line-height: 19px; color: #2A2E34; }
+.submenu .submenu_pic { margin-right: 10px; cursor: pointer; }
+.submenu .submenu_pic_catalog { margin-right: 10px; cursor: pointer; }
+.submenu .submenu_btn { display: flex; padding-top: 9px; padding-left: 10px; width: 100px; height: 35px; font-weight: 400; font-size: 14px; line-height: 16px; background: #F1F3F4; border: none; border-radius: 6px; cursor: pointer; }
+.submenu .submenu_btn .submenu_btn_pic { padding-right: 10px; }
+.submenu .submenu_btn .price:after { content: " ₽"; /*знак количества товара в корзине */ }
